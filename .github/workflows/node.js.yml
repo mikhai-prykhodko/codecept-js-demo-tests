@@ -25,6 +25,9 @@ jobs:
         cache: 'npm'
     
     - run: |
-            echo $SUPER_SECRET
+            if [ "$SUPER_SECRET" -eq "123" ]
+            then 
+              echo "Yes"
+            fi
       env:
         SUPER_SECRET: ${{ secrets.TEST }}
