@@ -23,7 +23,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    
+    - run: |
+            echo $SUPER_SECRET
       env:
         SUPER_SECRET: ${{ secrets.TEST }}
-    - run: |
-            echo "$SUPER_SECRET"
