@@ -32,3 +32,4 @@ jobs:
             fi
       env:
         SUPER_SECRET: ${{ secrets.TEST }}
+    - run: npx codeceptjs run --steps
