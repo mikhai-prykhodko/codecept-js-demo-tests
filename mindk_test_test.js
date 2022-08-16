@@ -11,6 +11,7 @@ Before((I) => {
 
 
 Scenario('Create Ticket', (I) => {
+  console.log(process.env.SUPER_SECRET);
   I.login();
  
   I.see('New Ticket');
