@@ -25,4 +25,4 @@ jobs:
         cache: 'npm'
       env:
         SUPER_SECRET: ${{ secrets.TEST }}
-    - run: echo "$env:SUPER_SECRET"
+    - run: echo "$SUPER_SECRET"
