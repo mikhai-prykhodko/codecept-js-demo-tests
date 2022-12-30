@@ -12,7 +12,7 @@
   "dependencies": {
     "@wdio/cli": "^5.0.0",
     "@wdio/selenium-standalone-service": "^5.13.2",
-    "codeceptjs": "^2.3.2"
+    "codeceptjs": "^3.0.0"
   },
   "devDependencies": {
     "protractor": "^5.4.2",
