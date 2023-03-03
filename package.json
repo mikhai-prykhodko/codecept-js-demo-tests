@@ -15,7 +15,7 @@
     "codeceptjs": "^2.3.2"
   },
   "devDependencies": {
-    "protractor": "^5.4.2",
+    "protractor": "^5.4.4",
     "selenium-standalone": "^6.16.0"
   }
 }
